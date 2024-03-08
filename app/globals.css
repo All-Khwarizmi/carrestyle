@@ -30,6 +30,10 @@ body {
   height: 100%;
 }
 
+.primary-color {
+  color: var(--primary-color);
+}
+
 .text-xxl {
   font-size: 4.8em;
 }
