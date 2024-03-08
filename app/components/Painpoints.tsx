@@ -18,8 +18,8 @@ export function BenefitsObjectionsData() {
             mesure. Découvrez les avantages et pourquoi nous choisir.
           </p>
         </div>
-        <div className="grid max-w-sm w-full grid-cols-2 gap-4 mx-auto md:grid-cols-3 md:max-w-none md:gap-6 lg:grid-cols-3 xl:grid-cols-3">
-          <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200  rounded-xl p-4 hover:shadow-lg transition-transform scale-105 translate-y-1  dark:hover:shadow-lg dark:border-gray-800">
+        <div className="grid max-w-sm w-full grid-cols-2 gap-4 mx-auto md:grid-cols-3 md:max-w-none md:gap-8 lg:grid-cols-3 xl:grid-cols-3">
+          <div className="flex flex-col items-center justify-center space-y-2 space-x-3 border border-gray-200  rounded-xl p-4 hover:shadow-lg transition-transform scale-105 translate-y-1  dark:hover:shadow-lg dark:border-gray-800">
             <DropletsIcon className="w-8 h-8" />
             <h3 className="text-sm font-bold tracking-wide"> Étanche </h3>
             <p className="text-xs ">
