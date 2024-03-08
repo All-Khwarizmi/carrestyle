@@ -11,6 +11,7 @@
   --other-primary-color: #FBA834;
   --purple: #333A73;
   --gray: #9BB0C1;
+  --taupe: #F9EFDB
 }
 
 @media (prefers-color-scheme: dark) {
@@ -44,6 +45,9 @@ body {
 
 .text-xxl {
   font-size: 4.8em;
+}
+.benefits {
+  background-color: var(--taupe);
 }
 
 .bg-purple {
