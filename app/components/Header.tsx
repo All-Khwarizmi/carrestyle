@@ -20,7 +20,7 @@ export default function Header() {
       >
         Transformez votre salle de bain avec nos douches à l'Italienne sur
         mesure.
-        <a href="/" className="pl-3 underline">
+        <a href="#contact" className="pl-3 underline">
           Montrez-moi.
         </a>
       </div>
