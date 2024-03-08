@@ -11,7 +11,7 @@ export default function Head() {
         name="description"
         content="Carréstyle - le style de toutes vos envies"
       />
-      <link rel="icon" href="./public/favicon.ico" />
+      <link rel="icon" href="./favicon.ico" />
       {/*      HTML Meta Tags */}
       <title>Carréstyle</title>
       <meta
