@@ -8,7 +8,7 @@ import { JSX, SVGProps } from "react";
 export function BenefitsObjectionsData() {
   return (
     <section className="benefits h-full w-screen flex justify-center items-center py-12 md:py-24 lg:py-32 xl:py-40">
-      <div className="container grid items-center justify-center gap-12 px-4 text-center md:px-6 lg:gap-10">
+      <div className="container grid items-center justify-center gap-12 px-4 text-center md:px-6 lg:gap-16">
         <div className="space-y-3">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
             Expérimentez la Différence
@@ -61,8 +61,8 @@ export function BenefitsObjectionsData() {
             </p>
           </div>
         </div>
-        <div className="mx-auto max-w-[700px] grid gap-4 md:gap-6 lg:gap-10">
-          <div className="grid gap-2">
+        <div className="mx-auto max-w-[700px] w-full md:flex h-full  gap-4 md:gap-6 lg:gap-12">
+          <div className="grid gap-2 pb-6 md:pb-0 grow">
             <h3 className="text-xl font-bold">Processus d'Installation</h3>
             <p className="text-sm ">
               Notre processus d’installation minimise toute perturbation, grâce
@@ -71,7 +71,7 @@ export function BenefitsObjectionsData() {
               votre nouvelle douche italienne dès l’achèvement.
             </p>
           </div>
-          <div className="grid gap-2">
+          <div className="grid gap-2  grow">
             <h3 className="text-xl font-bold">Entretien et Confort</h3>
             <p className="text-sm ">
               Les douches italiennes, malgré leur allure moderne et épurée, sont
