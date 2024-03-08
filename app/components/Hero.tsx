@@ -11,7 +11,7 @@ export default function Hero() {
             Le style de toutes vos envies
           </p>
         </div>
-        <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-3/6">
+        <div className="mb-20 mt-44 hidden w-full flex-col lg:mt-12 lg:inline-block lg:w-2/5">
           <img src="/images/beton-hero2.jpg" alt="Hero" />
         </div>
         <div className="my-20 inline-block w-full flex-col lg:mt-0 lg:hidden lg:w-2/5">
