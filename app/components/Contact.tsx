@@ -1,4 +1,5 @@
 import { JSX, SVGProps } from "react";
+import ButtonMailto from "./Mail";
 
 /**
  * v0 by Vercel.
@@ -23,43 +24,27 @@ export default function Contact() {
               un service personnalisé et à répondre rapidement.
             </p>
           </div>
-          <div className="grid gap-2 md:gap-4">
+          <div className="grid grid-cols-2 gap-2 md:gap-4 pt-4">
             <div className="flex items-center space-x-2">
-              <MailIcon className="primary-color w-4 h-4 flex-shrink-0 " />
-              <p className="text-sm font-medium xl:text-2xl">
-                carrestyle@laposte.net
+              <p className="text-sm font-medium xl:text-2xl hover:underline">
+                <ButtonMailto
+                  label="carrestyle@laposte.net"
+                  mailto="mailto:carrestyle@laposte.net"
+                />
               </p>
             </div>
             <div className="flex items-center space-x-2">
-              <PhoneIcon className="primary-color w-4 h-4 flex-shrink-0" />
               <p className="text-sm font-medium xl:text-2xl">
-                +33 (0)1 23 45 67 89
+                <a href="tel:PHONE_NUM" className="hover:underline">
+                  <PhoneIcon className="primary-color w-4 h-4 flex-shrink-0 hover:scale-110 transition-transform duration-300 inline mr-2" />
+                  +33 (0)1 23 45 67 89
+                </a>
               </p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
-}
-
-function MailIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
-  return (
-    <svg
-      {...props}
-      xmlns="http://www.w3.org/2000/svg"
-      width="24"
-      height="24"
-      viewBox="0 0 24 24"
-      fill="none"
-      stroke="currentColor"
-      strokeWidth="2"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-    >
-      <rect width="20" height="16" x="2" y="4" rx="2" />
-      <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
-    </svg>
   );
 }
 
