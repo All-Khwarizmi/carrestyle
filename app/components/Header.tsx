@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 
+import ContactButton from "./ContactButton";
+
 export default function Header() {
   return (
     <>
@@ -37,15 +39,7 @@ export default function Header() {
           </div>
         </div>
         <div className="flex items-center">
-          <div className="hidden py-1 text-right xl:inline-block">
-            <a
-              className="bg-blue mt-2 inline-flex items-center px-8 py-3 text-lg font-semibold tracking-tighter text-white"
-              href="/"
-            >
-              Contact
-            </a>
-          </div>
-          
+          <ContactButton className="hidden xl:inline-block" />
         </div>
       </div>
     </>
