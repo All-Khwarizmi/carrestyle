@@ -19,7 +19,7 @@ export default function Hero() {
         <img
           src="/images/beton-hero2.jpg"
           width={"600px"}
-          className="xl:w-3/6"
+          className="w-full xl:w-3/6"
           alt="Hero"
         />
       </div>
