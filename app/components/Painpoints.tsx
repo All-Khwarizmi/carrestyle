@@ -20,14 +20,14 @@ export function BenefitsObjectionsData() {
         </div>
         <div className="grid max-w-sm w-full grid-cols-2 gap-4 mx-auto md:grid-cols-3 md:max-w-none md:gap-8 lg:grid-cols-3 xl:grid-cols-3">
           <div className="flex flex-col items-center justify-center space-y-2 space-x-3 border border-gray-200  rounded-xl p-4 hover:shadow-lg transition-transform scale-105 translate-y-1  dark:hover:shadow-lg dark:border-gray-800">
-            <DropletsIcon className="w-8 h-8" />
+            <DropletsIcon className="w-8 h-8 primary-color " />
             <h3 className="text-sm font-bold tracking-wide"> Étanche </h3>
             <p className="text-xs ">
               Garantit une salle de bain toujours sèche
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200  rounded-xl p-4 hover:shadow-lg transition-transform scale-105 translate-y-1  dark:hover:shadow-lg dark:border-gray-800">
-            <ShowerHeadIcon className="w-8 h-8" />
+            <ShowerHeadIcon className="w-8 h-8 primary-color" />
             <h3 className="text-sm font-bold tracking-wide">
               Élégance Incomparable
             </h3>
@@ -36,7 +36,7 @@ export function BenefitsObjectionsData() {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200  rounded-xl p-4 hover:shadow-lg transition-transform scale-105 translate-y-1 dark:hover:shadow-lg dark:border-gray-800">
-            <ThermometerIcon className="w-8 h-8" />
+            <ThermometerIcon className="w-8 h-8 primary-color" />
             <h3 className="text-sm font-bold tracking-wide">
               Température Constante
             </h3>
@@ -45,7 +45,7 @@ export function BenefitsObjectionsData() {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200  rounded-xl p-4 hover:shadow-lg transition-transform scale-105 translate-y-1 dark:hover:shadow-lg dark:border-gray-800">
-            <ActivityIcon className="w-8 h-8" />
+            <ActivityIcon className="w-8 h-8 primary-color" />
             <h3 className="text-sm font-bold tracking-wide">
               Facilité de Nettoyage
             </h3>
@@ -54,7 +54,7 @@ export function BenefitsObjectionsData() {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center space-y-2 border border-gray-200  rounded-xl p-4 hover:shadow-lg transition-transform scale-105 translate-y-1 dark:hover:shadow-lg dark:border-gray-800">
-            <ActivityIcon className="w-8 h-8" />
+            <ActivityIcon className="w-8 h-8 primary-color" />
             <h3 className="text-sm font-bold tracking-wide">Expérience Spa</h3>
             <p className="text-xs ">
               Transformez votre routine en un moment de relaxation pure
