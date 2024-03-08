@@ -5,7 +5,6 @@ export default function Main() {
   return (
     <div className="grotesk max-w-8xl mx-auto">
       <section className="w-full text-black">
-       
         <div className="mt-0 bg-white lg:mt-40">
           <div className="mx-auto">
             <div className="mx-auto px-5 py-24 lg:px-24">

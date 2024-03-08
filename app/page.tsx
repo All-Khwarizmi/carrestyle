@@ -1,13 +1,12 @@
-import Image from "next/image";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import { BenefitsObjectionsData } from "./components/Painpoints";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <Hero />
+      <BenefitsObjectionsData />
       <Footer />
     </>
   );
