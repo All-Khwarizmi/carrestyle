@@ -10,7 +10,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="w-full py-8 md:py-16 h-full flex items-center justify-center xl:h-screen lg:py-24"
+      className="w-full py-8 md:py-16  flex items-center justify-center xl:h-screen lg:py-24"
     >
       <div className="container items-center flex justify-center px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-2 text-center">
@@ -24,7 +24,7 @@ export default function Contact() {
               un service personnalisé et à répondre rapidement.
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-2 md:gap-4 pt-4">
+          <div className="grid md:grid-cols-2 gap-2 md:gap-4 pt-4">
             <div className="flex items-center space-x-2">
               <p className="text-sm font-medium xl:text-2xl hover:underline">
                 <ButtonMailto
