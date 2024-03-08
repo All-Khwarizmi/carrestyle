@@ -7,7 +7,10 @@ import { JSX, SVGProps } from "react";
  */
 export default function Contact() {
   return (
-    <section className="w-full py-8 md:py-16 h-full flex items-center justify-center xl:h-screen lg:py-24">
+    <section
+      id="contact"
+      className="w-full py-8 md:py-16 h-full flex items-center justify-center xl:h-screen lg:py-24"
+    >
       <div className="container items-center flex justify-center px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-2 text-center">
           <div className="space-y-2">

@@ -21,7 +21,7 @@ export default function Footer() {
             >
               Politique de confidentialité
             </a>
-            <a href="/contact" className="text-sm hover:underline">
+            <a href="#contact" className="text-sm hover:underline">
               Contactez-nous
             </a>
           </div>
